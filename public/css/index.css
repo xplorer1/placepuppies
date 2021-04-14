@@ -1,0 +1,22 @@
+.image {
+    margin-top: 1rem;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* margin: 1.5rem; */
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+body,h1,h2,h3,h4,h5,h6,span {font-family: "Amatic SC", sans-serif}
+
+body{
+	background-color: black
+}

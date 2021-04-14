@@ -1,7 +1,5 @@
 import React from 'react';
 
-var myIndex = 0;
-
 class Home extends React.Component {
     constructor(props) {
         super(props);

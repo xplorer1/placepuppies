@@ -8,16 +8,12 @@ class NotFound extends React.Component {
 
     render() {
         return (
-            <article className="prelimpages animated fadeIn delay-0.5s">
-                <section className="mx-auto w-75">
-                    <div className="w-100 text-center mt-5 mb-3 tradecolordk font-weight-bold">
-                        Sorry, this page is not available.
-                    </div>
-
-                    <div className="text-center">
-                    	The link you followed may have been broken, or the page may have been removed. <Link to="/">Go back to Place Puppies.</Link>
-                    </div>
-                </section>
+            <article className="bgimg w3-display-container w3-animate-opacity w3-text-white" style={{backgroundColor: "#fff"}}>
+                <div className="w3-display-middle">
+                    <h1 className="w3-jumbo w3-animate-top">This page is not available.</h1>
+                    <hr className="w3-border-grey" style={{margin: "auto", width: "40%"}} />
+                    <p className="w3-large w3-center">The link you followed may have been broken, or the page may have been removed. <Link to="/">Go back to Place Puppies.</Link></p>
+                </div>
             </article>
         );
     }

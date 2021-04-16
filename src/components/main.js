@@ -33,6 +33,8 @@ class Main extends React.Component {
         let width = this.props.match.params.width;
         let height = this.props.match.params.height;
 
+        if(!height) height = width;
+
         this.setState({height: height, width: width});
     }
 }

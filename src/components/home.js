@@ -24,18 +24,18 @@ class Home extends React.Component {
 
                     <h1 className="">How to use PlacePuppies</h1>
 
-                    <p>Just specify the image size after our URL (https://via.placeholder.com/) and you’ll get a placeholder image. So the image URL should look this:-
+                    <p>Just specify the image size after our URL (https://place-puppies.herokuapp.com/) and you’ll get a placeholder image. So the image URL should look this:-
                     </p>
 
-                    <p><code>https://via.placeholder.com<mark><b>/150</b></mark></code></p>
+                    <p><code>https://place-puppies.herokuapp.com<mark><b>/150</b></mark></code></p>
 
                     <p>You can use the images in your HTML or CSS, like this:</p>
 
-                    <p><code>&lt;a href="https://placeholder.com"&gt;&lt;img src="https://via.placeholder.com/150"&gt;&lt;/a&gt;</code></p>
+                    <p><code><a href="https://place-puppies.herokuapp.com"></a><img src="https://place-puppies.herokuapp.com/150/150" /></code></p>
 
                     <p>Specify the width first, then height. Height is optional: if no height is specified, your placeholder image will be a square. So this example…</p>
 
-                    <p><code>https://via.placeholder.com<em><mark>/150</mark></em></code></p>
+                    <p><code>https://place-puppies.herokuapp.com<em><mark>/150</mark></em></code></p>
 
                     <p style={{marginBottom: "5rem"}}>…generates a 150 pixel square dummy image:-</p>
 

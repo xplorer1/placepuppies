@@ -37,7 +37,7 @@ class Home extends React.Component {
 
                     <p><code>https://via.placeholder.com<em><mark>/150</mark></em></code></p>
 
-                    <p>…generates a 150 pixel square dummy image:-</p>
+                    <p style={{marginBottom: "5rem"}}>…generates a 150 pixel square dummy image:-</p>
 
                 </section>
             </article>

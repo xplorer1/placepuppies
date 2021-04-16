@@ -1,7 +1,3 @@
-.image {
-    margin-top: 1rem;
-}
-
 .image-container {
     position: relative;
     text-align: center;
@@ -20,11 +16,13 @@
     right: 16px;
 }
 
+html,body, main { height: 100%; margin: 0px; padding: 0px; }
+
 body,h1,h2,h3,h4,h5,h6,span {font-family: "Amatic SC", sans-serif}
 
-body{
+/* body{
 	background-color: black
-}
+} */
 
 .bgimg {
     background-image: url('/img/notfound.jpg');

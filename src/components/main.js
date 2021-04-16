@@ -17,15 +17,14 @@ class Main extends React.Component {
 
     render() {
         return (
-            <article className="" style={{margin: "0px", background: "black", height: "100%"}}>
-                <div className="image-container">
-                    <img
-                        style={{WebkitUserSelect: "none", cursor: "zoomIn", backgroundColor: "hsl(0, 0%, 90%)", transition: "background-color 300ms"}}
-                        src={"https://res.cloudinary.com/dvytkanrg/image/upload/w_"+ this.state.width +",h_"+ this.state.height +",c_scale/placepuppies_hz1h6e.jpg"} className="image" width={this.state.width} height={this.state.height} 
-                    />
+            <article className="w3-display-container w3-center" style={{height: "100%"}}>
+                <img
+                    style={{WebkitUserSelect: "none", cursor: "zoomIn", backgroundColor: "hsl(0, 0%, 90%)", transition: "background-color 300ms"}}
+                    src={"https://res.cloudinary.com/dvytkanrg/image/upload/w_"+ this.state.width +",h_"+ this.state.height +",c_scale/placepuppies_hz1h6e.jpg"} className="w3-display-middle image" width={this.state.width} height={this.state.height} 
+                />
 
-                    {/* <div class="bottom-right">Bottom Right</div> */}
-                </div>
+                <div className="w3-display-middle w3-large w3-text-white">{this.state.width + "X" + this.state.height}</div>
+
             </article>
         );
     }

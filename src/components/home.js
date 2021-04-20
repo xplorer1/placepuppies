@@ -35,11 +35,11 @@ class Home extends React.Component {
 
                     <p>You can use the images in your HTML or CSS, like this:</p>
 
-                    <p><code>img src="https://place-puppies.herokuapp.com/150/150"</code></p>
+                    <p><code>&lt;img src="https://place-puppies.herokuapp.com/150/150"&gt;</code></p>
 
-                    <p><code>img src="https://place-puppies.herokuapp.com/300/150"</code></p>
+                    <p><code>&lt;img src="https://place-puppies.herokuapp.com/300/150"&gt;</code></p>
 
-                    <p><code>img src="https://place-puppies.herokuapp.com/150/300"</code></p>
+                    <p><code>&lt;img src="https://place-puppies.herokuapp.com/150/300"&gt;</code></p>
 
                     <p>Specify the width first, then height. Height is optional: if no height is specified, your placeholder image will be a square. So this example…</p>
 

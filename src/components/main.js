@@ -36,6 +36,8 @@ class Main extends React.Component {
         if(!height) height = width;
 
         this.setState({height: height, width: width});
+
+        window.document.title = width + "/" + height;
     }
 }
 
